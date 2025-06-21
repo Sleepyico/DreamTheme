@@ -2,7 +2,7 @@
 	// Theme Color reference.
 	// https://code.visualstudio.com/docs/getstarted/theme-color-reference
 	"$schema": "vscode://schemas/color-theme",
-	"name": "Angelic (BETA) · Rawreme",
+	"name": "Angelic (BETA) · Iconical",
 	"type": "light",
 	"colors": {
 		// Activity Bar
@@ -395,13 +395,6 @@
 				"foreground": "#7b7c7a"
 			}
 		},
-		// {
-		// 	"name": "[BETA/COMMENTS] — The content of comments color",
-		// 	"scope": "comment",
-		// 	"settings": {
-		// 		"foreground": "#3f6932"
-		// 	}
-		// },
 		{
 			"name": "[Entity] — The main Entity color",
 			"scope": "entity",

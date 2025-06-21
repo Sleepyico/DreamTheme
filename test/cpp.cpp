@@ -80,7 +80,7 @@ int main(int argc, char *argv[]) {
     cerr << "Sorry, the file fails to read!" << endl;
     return -1;
   }
-  map<string, vector<string>> mapFamily;
+  map<stringw, vector<string>> mapFamily;
   InitMap(mapFamily, readFile);
   DisplayMap(mapFamily, writeFile);
   UserQuery(mapFamily);

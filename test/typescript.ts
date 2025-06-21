@@ -1,3 +1,5 @@
+import { AssertionError } from "assert";
+
 module ModuleValidator {
   import checkChars = CharUtils.notWhiteSpace;
   export interface HasValidator<T> {
@@ -16,7 +18,7 @@ module ModuleValidator {
 
   type B<T> = T extends string ? string : never;
 
-  class Has extends Foo { }
+  class Has extends Foo {}
 
   class HasValidator implements HasValidator<String> {
     /* Processed values */
@@ -57,8 +59,6 @@ function assertIsString(val: any): asserts val is string {
   }
 }
 
-class Jockl extends Error {
+class Jockl extends Error {}
 
-}
-
-const thisConstant = "foo"
+const thisConstant = "foo";

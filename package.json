@@ -1,14 +1,14 @@
 {
-  "name": "rawreme",
-  "displayName": "Rawreme",
+  "name": "dreamtheme",
+  "displayName": "DreamTheme",
   "description": "Unique Themes for your vscode editor. Be eccentric now and use these shades of purple.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "publisher": "Iconical",
-  "icon": "images/rawreme.png",
+  "icon": "images/DreamTheme.png",
   "license": "LICENSE.md",
   "repository": {
     "type": "git",
-    "url": "https://github.com/babyico/rawreme.git"
+    "url": "https://github.com/Sleepyico/DreamTheme.git"
   },
   "engines": {
     "vscode": "^1.86.0"
@@ -19,14 +19,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "Vampiric (BETA) · Rawreme",
+        "label": "Vampiric (BETA) · Iconical",
         "uiTheme": "vs-dark",
-        "path": "./themes/vampiric.rawreme.json"
+        "path": "./themes/vampiric.iconical.json"
       },
       {
-        "label": "Angelic (BETA) · Rawreme",
+        "label": "Angelic (BETA) · Iconical",
         "uiTheme": "vs",
-        "path": "./themes/angelic.rawreme.json"
+        "path": "./themes/angelic.iconical.json"
       }
     ]
   }
